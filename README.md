@@ -1,2 +1,2 @@
-# sumberjaya-furniture-admin.github.io
-Sumber Jaya Furniture Front End
+# Sumber Jaya Furniture Admin Dashboard
+Jaya, jaya, jaya!
