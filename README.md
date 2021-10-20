@@ -32,7 +32,7 @@ Folder Structure:
 
 ## Teams
 
-- [Dico Aji Prasetyo]()
+- [Dico Aji Prasetyo](https://github.com/DicoAji)
 - [Iwan Suryaningrat](https://github.com/iwansuryaningrat)
 - [Khoeru Roziqin](https://github.com/roziqinkhoeru)
 - [Musa Alfian Maulana]()
