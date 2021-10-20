@@ -18,8 +18,8 @@ Circles.create({
 //Notify
 $.notify({
 	icon: 'flaticon-alarm-1',
-	title: 'Atlantis',
-	message: 'Premium Bootstrap 4 Admin Dashboard',
+	title: 'Sumber Jaya Furniture',
+	message: 'Selamat Datang di dashboard admin',
 },{
 	type: 'secondary',
 	placement: {
