@@ -35,8 +35,8 @@ Folder Structure:
 - [Dico Aji Prasetyo](https://github.com/DicoAji)
 - [Iwan Suryaningrat](https://github.com/iwansuryaningrat)
 - [Khoeru Roziqin](https://github.com/roziqinkhoeru)
-- [Musa Alfian Maulana]()
-- [Rafli Ferdian Ramadhan]()
+- [Musa Alfian Maulana](https://github.com/musaalfian)
+- [Rafli Ferdian Ramadhan](https://github.com/RafliFerdian25)
 
 ## Used By
 
