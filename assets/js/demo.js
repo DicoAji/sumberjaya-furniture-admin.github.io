@@ -19,7 +19,7 @@ Circles.create({
 $.notify({
 	icon: 'flaticon-alarm-1',
 	title: 'Sumber Jaya Furniture',
-	message: 'Selamat Datang di dashboard admin',
+	message: 'Selamat Datang di Dahsbord Admin Sumber Jaya Furniture',
 },{
 	type: 'secondary',
 	placement: {
