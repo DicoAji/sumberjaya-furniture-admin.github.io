@@ -202,7 +202,7 @@
 							<a href="data_barang.html">
 								<i class="fas fa-box-open"></i>
 								<p>Data Barang</p>
-								<span class="badge badge-info">99+</span>
+								<!-- <span class="badge badge-info">99+</span> -->
 							</a>
 						</li> <!-- end nav data barang -->
 
@@ -210,7 +210,7 @@
 							<a href="data_transaksi.html">
 								<i class="fas fa-shopping-cart"></i>
 								<p>Data Transaksi</p>
-								<span class="badge badge-info">99+</span>
+								<!-- <span class="badge badge-info">99+</span> -->
 							</a>
 						</li> <!-- end nav data transaksi -->
 					</ul>
@@ -249,30 +249,24 @@
 											<thead>
 												<tr>
 													<th>No Invoice</th>
-													<th>Nama Produk</th>
-													<th>Nama Pembeli</th>
 													<th>Waktu Pemesanan</th>
+													<th>Nama Barang</th>
+													<th>Nama Pembeli</th>
+													<th>Jumlah</th>
+													<th>Harga Total</th>
 													<th>Status</th>
 													<th>Update Status</th>
 												</tr>
 											</thead>
-											<tfoot>
-												<tr>
-													<th>No Invoice</th>
-													<th>Nama Produk</th>
-													<th>Nama Pembeli</th>
-													<th>Waktu Pemesanan</th>
-													<th>Status</th>
-													<th>Update Status</th>
-												</tr>
-											</tfoot>
 											<tbody>
 												<tr>
-													<td>INV100</td>
+													<td>INV101</td>
+													<td>01-01-2001</td>
 													<td>Kursi Lipat</td>
 													<td>Sutejo</td>
-													<td>01-01-2001</td>
-													<td>Belum dikirim</td>
+													<th>3</th>
+													<th>900,000</th>
+													<td><span class="badge badge-warning">Belum Transfer</span></td>
 													<td style="text-align: center;">
 														<button type="button" class="btn" data-bs-toggle="modal"
 															data-bs-target="#staticBackdrop">
@@ -281,11 +275,58 @@
 													</td>
 												</tr>
 												<tr>
-													<td>INV101</td>
+													<td>INV102</td>
+													<td>02-01-2001</td>
 													<td>Lemari Olympic</td>
 													<td>Musa Alfian</td>
-													<td>02-01-2001</td>
-													<td>Belum ditransfer</td>
+													<th>1</th>
+													<th>1,499,000</th>
+													<td><span class="badge badge-danger">Dibatalkan</span></td>
+													<td style="text-align: center;">
+														<button type="button" class="btn" data-bs-toggle="modal"
+															data-bs-target="#staticBackdrop">
+															<i class="bi bi-pencil-square"></i>
+														</button>
+													</td>
+												</tr>
+												<tr>
+													<td>INV103</td>
+													<td>19-01-2001</td>
+													<td>Meja Kerja</td>
+													<td>Kipli</td>
+													<th>8</th>
+													<th>6,999,000</th>
+													<td><span class="badge badge-primary">Dikirim</span></td>
+													<td style="text-align: center;">
+														<button type="button" class="btn" data-bs-toggle="modal"
+															data-bs-target="#staticBackdrop">
+															<i class="bi bi-pencil-square"></i>
+														</button>
+													</td>
+												</tr>
+												<tr>
+													<td>INV104</td>
+													<td>21-03-2001</td>
+													<td>Meja Kerja</td>
+													<td>Rahma</td>
+													<th>10</th>
+													<th>4,499,000</th>
+													<td><span class="badge badge-success">Sukses</span></td>
+													<td style="text-align: center;">
+														<button type="button" class="btn" data-bs-toggle="modal"
+															data-bs-target="#staticBackdrop">
+															<i class="bi bi-pencil-square"></i>
+														</button>
+													</td>
+												</tr>
+												<tr>
+													<td>INV105</td>
+													<td>24-03-2001</td>
+													<td>Meja Belajar</td>
+													<td>Bejo</td>
+													<th>8</th>
+													<th>5,999,000</th>
+													<td><span class="badge" style="background-color: grey;">Belum Dikirim</span></td>
 													<td style="text-align: center;">
 														<button type="button" class="btn" data-bs-toggle="modal"
 															data-bs-target="#staticBackdrop">

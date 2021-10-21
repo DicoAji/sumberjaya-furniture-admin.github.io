@@ -139,7 +139,7 @@
 									</li>
 									<li>
 										<div class="dropdown-divider"></div>
-										<a class="dropdown-item" href="/logout">Logout</a>
+										<a class="dropdown-item" href="#">Logout</a>
 									</li>
 								</div>
 							</ul>
@@ -213,8 +213,7 @@
 								<h5 class="text-white op-7 mb-2">Sumber Jaya Furniture selalu menyediakan barang berkualitas, kuat, dan tahan lama.</h5>
 							</div>
 							<div class="ml-md-auto py-2 py-md-0">
-								<a href="#" class="btn btn-white btn-border btn-round mr-2">Manage</a>
-								<a href="#" class="btn btn-secondary btn-round">Add Customer</a>
+								<a href="form-add-barang.html" class="btn btn-white btn-border btn-round mr-2">Tambah Barang</a>
 							</div>
 						</div>
 					</div>
@@ -235,8 +234,8 @@
 										</div>
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
-												<p class="card-category">Sales</p>
-												<h4 class="card-title">$ 1,345</h4>
+												<p class="card-category">Total Barang Terjual</p>
+												<h4 class="card-title">476</h4>
 											</div>
 										</div>
 									</div>
@@ -256,8 +255,8 @@
 										</div>
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
-												<p class="card-category">Order</p>
-												<h4 class="card-title">576</h4>
+												<p class="card-category">Total Pembelian</p>
+												<h4 class="card-title">397</h4>
 											</div>
 										</div>
 									</div>
@@ -277,8 +276,8 @@
 										</div>
 										<div class="col col-stats ml-3 ml-sm-0">
 											<div class="numbers">
-												<p class="card-category">Income</p>
-												<h4 class="card-title">1,294</h4>
+												<p class="card-category">Total Pendapatan</p>
+												<h4 class="card-title">IDR 670,870,000</h4>
 											</div>
 										</div>
 									</div>
@@ -296,11 +295,12 @@
 							<div class="card">
 								<div class="card-header">
 									<div class="card-title">Produk Terlaris</div>
-								</div>
+								</div> <!-- end card header -->
+
 								<div class="card-body pb-0">
 									<div class="d-flex">
 										<div class="avatar">
-											<img src="assets/img/logoproduct.svg" alt="..." class="avatar-img rounded-circle">
+											<img src="assets/img/logoproduct3.svg" alt="..." class="avatar-img rounded-circle">
 										</div>
 										<div class="flex-1 pt-1 ml-2">
 											<h6 class="fw-bold mb-1">Nama Barang</h6>
@@ -309,35 +309,52 @@
 										<div class="d-flex ml-auto align-items-center">
 											<h3 class="text-info fw-bold">Jumlah Terjual</h3>
 										</div>
-									</div>
-									<div class="separator-dashed"></div>
-									<div class="d-flex">
-										<div class="avatar">
-											<img src="assets/img/logoproduct.svg" alt="..." class="avatar-img rounded-circle">
-										</div>
-										<div class="flex-1 pt-1 ml-2">
-											<h6 class="fw-bold mb-1">J.CO Donuts</h6>
-											<small class="text-muted">The Best Donuts</small>
-										</div>
-										<div class="d-flex ml-auto align-items-center">
-											<h3 class="text-info fw-bold">+$300</h3>
-										</div>
-									</div>
+									</div> <!-- top sale 1 -->
+
 									<div class="separator-dashed"></div>
 									<div class="d-flex">
 										<div class="avatar">
 											<img src="assets/img/logoproduct3.svg" alt="..." class="avatar-img rounded-circle">
 										</div>
 										<div class="flex-1 pt-1 ml-2">
-											<h6 class="fw-bold mb-1">Ready Pro</h6>
-											<small class="text-muted">Bootstrap 4 Admin Dashboard</small>
+											<h6 class="fw-bold mb-1">Sofa</h6>
+											<small class="text-muted">Home Furniture</small>
 										</div>
 										<div class="d-flex ml-auto align-items-center">
-											<h3 class="text-info fw-bold">+$350</h3>
+											<h3 class="text-info fw-bold">1,099,000</h3>
 										</div>
-									</div>
+									</div> <!-- top sale 2 -->
+
 									<div class="separator-dashed"></div>
-								</div>
+									<div class="d-flex">
+										<div class="avatar">
+											<img src="assets/img/logoproduct3.svg" alt="..." class="avatar-img rounded-circle">
+										</div>
+										<div class="flex-1 pt-1 ml-2">
+											<h6 class="fw-bold mb-1">Meja Kerja</h6>
+											<small class="text-muted">Office Furniture</small>
+										</div>
+										<div class="d-flex ml-auto align-items-center">
+											<h3 class="text-info fw-bold">799,000</h3>
+										</div>
+									</div> <!-- top sale 3 -->
+
+									<div class="separator-dashed"></div>
+									<div class="d-flex">
+										<div class="avatar">
+											<img src="assets/img/logoproduct3.svg" alt="..." class="avatar-img rounded-circle">
+										</div>
+										<div class="flex-1 pt-1 ml-2">
+											<h6 class="fw-bold mb-1">Trolley Linen</h6>
+											<small class="text-muted">Hospital Furniture</small>
+										</div>
+										<div class="d-flex ml-auto align-items-center">
+											<h3 class="text-info fw-bold">1,499,000</h3>
+										</div>
+									</div> <!-- top sale 4 -->
+
+									<div class="separator-dashed"></div>
+								</div> <!-- end card body -->
 							</div> <!-- end card -->
 						</div> <!-- end top sales -->
 
@@ -351,42 +368,84 @@
 									<table class="table table-hover">
 										<thead>
 											<tr>
-												<th scope="col">Nama Produk</th>
+												<th scope="col">Bulan</th>
 												<th scope="col">Jumlah</th>
 												<th scope="col">Total Penjualan</th>
-												<th scope="col">Stok Tersedia</th>
+												<th scope="col">Action</th>
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td>Kursi</td>
+												<td>Januari</td>
 												<td>24</td>
 												<td>9576000</td>
-												<td>6</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
 											</tr>
 											<tr>
-												<td>Lemari</td>
+												<td>Februari</td>
 												<td>20</td>
 												<td>7290000</td>
-												<td>10</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
 											</tr>
 											<tr>
-												<td>Meja</td>
+												<td>Maret</td>
 												<td>18</td>
 												<td>8082000</td>
-												<td>12</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
 											</tr>
 											<tr>
-												<td>Kursi</td>
+												<td>April</td>
 												<td>24</td>
 												<td>9576000</td>
-												<td>6</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
 											</tr>
 											<tr>
-												<td>Kursi</td>
+												<td>Mei</td>
 												<td>24</td>
 												<td>9576000</td>
-												<td>6</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
+											</tr>
+											<tr>
+												<td>Juni</td>
+												<td>24</td>
+												<td>9576000</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
+											</tr>
+											<tr>
+												<td>Juli</td>
+												<td>24</td>
+												<td>9576000</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
+											</tr>
+											<tr>
+												<td>Agustus</td>
+												<td>24</td>
+												<td>9576000</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
+											</tr>
+											<tr>
+												<td>September</td>
+												<td>24</td>
+												<td>9576000</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
+											</tr>
+											<tr>
+												<td>Oktober</td>
+												<td>24</td>
+												<td>9576000</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
+											</tr>
+											<tr>
+												<td>November</td>
+												<td>24</td>
+												<td>9576000</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
+											</tr>
+											<tr>
+												<td>Desember</td>
+												<td>24</td>
+												<td>9576000</td>
+												<td><a href="#" class="badge badge-info">Lihat Detail</a></td>
 											</tr>
 										</tbody>
 									</table>
