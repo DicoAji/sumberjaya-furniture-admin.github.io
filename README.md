@@ -20,8 +20,10 @@ Folder Structure:
  ┃ ┗ 📂...
  ┣ 📜data_barang.html
  ┣ 📜data_transaksi.html
+ ┣ 📜data-barang.html
  ┣ 📜form-add-barang.html
  ┣ 📜form-edit-barang.html
+ ┣ 📜form-edit-kategori.html
  ┣ 📜index.html
  ┗ 📜README.md
 ```
