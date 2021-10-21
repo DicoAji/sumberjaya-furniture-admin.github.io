@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<title>Form Tambah Barang | Sumber Jaya Furniture</title>
+	<title>Form Edit Kategori | Sumber Jaya Furniture</title>
 	<meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
 	<link rel="icon" href="assets/img/favicon-sfj.ico" type="image/x-icon"/>
 	
@@ -146,6 +146,7 @@
 			</nav>
 			<!-- End Navbar -->
 		</div>
+
 		<!-- Sidebar -->
 		<div class="sidebar sidebar-style-2">			
 			<div class="sidebar-wrapper scrollbar scrollbar-inner">
@@ -205,7 +206,7 @@
 			<div class="container">
 				<div class="page-inner">
 					<div class="page-header">
-						<h4 class="page-title">Formulir Tambah Barang</h4>
+						<h4 class="page-title">Formulir Edit Kategori</h4>
 						<ul class="breadcrumbs">
 							<li class="nav-home">
 								<a href="index.html">
@@ -216,110 +217,56 @@
 								<i class="flaticon-right-arrow"></i>
 							</li>
 							<li class="nav-item">
-								<a href="data_barang.html">Data Barang</a>
+								<a href="data_barang.html#data-kategori">Data Kategori</a>
 							</li>
 							<li class="separator">
 								<i class="flaticon-right-arrow"></i>
 							</li>
 							<li class="nav-item">
-								<a href="form-add-barang.html">Formulir tambah barang</a>
+								<a href="form-edit-kategori.html">Formulir Edit Kategori</a>
 							</li>
 						</ul>
-					</div>
+					</div> <!-- end page header -->
+
 					<div class="row">
 						<div class="col-md-12">
 							<div class="card">
 								<div class="card-header">
-									<div class="card-title">Tambah Barang</div>
-									<div class="card-category">Masukkan data barang dengan sebenar-benarnya</div>
-								</div>
+									<div class="card-title">Edit Kategori</div>
+									<div class="card-category">Masukkan data kategori dengan sebenar-benarnya</div>
+								</div> <!-- end card header -->
+
 								<form action="" method="POST">
 									<div class="card-body">
 										<div class="form-group form-show-validation row">
-											<label for="name" class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Nama <span class="required-label">*</span></label>
+											<label for="nameKategori" class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Nama Kategori <span class="required-label">*</span></label>
 											<div class="col-lg-7 col-md-9 col-sm-8">
-												<input type="text" class="form-control" id="nama" name="nama" placeholder="" required>
+												<input type="text" class="form-control" id="namaKategori" name="namaKategori" placeholder="" required>
 											</div>
 										</div> <!-- end nama -->
+									</div> <!-- end card body -->
 
-										<div class="form-group form-show-validation row">
-											<label for="kategori" class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Kategori <span class="required-label">*</span></label>
-											<div class="col-lg-7 col-md-9 col-sm-8">
-												<select id="Kategori" required class="form-control" name="kategori">
-													<option hidden> --  Pilih Kategori  --</option>
-													<!-- Ambil dari database -->
-													<option value="">Home Furniture</option>
-													<option value="">Hospital Furniture</option>
-													<option value="">Office Furniture</option>
-												</select>
-											</div>
-										</div> <!-- end kategori -->
-
-										<div class="form-group form-show-validation row">
-											<label for="jumlah" class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Jumlah <span class="required-label">*</span></label>
-											<br>
-											<div class="col-lg-7 col-md-9 col-sm-8">
-												<input class="form-control" type="number" id="jumlah" min="1" step="1" name="jumlah">
-											</div>											
-										</div> <!-- end jumlah -->
-
-										<div class="form-group form-show-validation row">
-											<label for="harga" class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Harga (Rp) <span class="required-label">*</span></label>
-											<br>
-											<div class="col-lg-7 col-md-9 col-sm-8">
-												<input class="form-control" type="number" id="harga" min="500" step="500" name="harga">
-											</div>											
-										</div> <!-- end harga -->
-
-										<div class="form-group form-show-validation row">
-											<label for="berat" class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Berat (Kg) <span class="required-label">*</span></label>
-											<br>
-											<div class="col-lg-7 col-md-9 col-sm-8">
-												<input class="form-control" type="number" id="berat" min="1" step="1" name="berat">
-											</div>											
-										</div> <!-- end berat -->
-
-										<div class="form-group form-show-validation row">
-											<label for="keterangant" class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Keterangan <span class="required-label">*</span></label>
-											<br>
-											<div class="col-lg-7 col-md-9 col-sm-8">
-												<textarea class="form-control" name="keterangan" id="Keterangan" cols="30" rows="10">
-												</textarea>
-											</div>
-										</div> <!-- end keterangan -->
-
-										<div class="form-group form-show-validation row">
-											<label class="col-lg-3 col-md-3 col-sm-4 mt-sm-2 text-right">Upload Image <span class="required-label">*</span></label>
-											<div class="col-lg-7 col-md-9 col-sm-8">
-												<div class="input-file input-file-image">
-													<img class="img-upload-preview" width="100" height="100" src="http://placehold.it/100x100" alt="preview">
-													<input type="file" class="form-control form-control-file" id="uploadImg" name="uploadImg" accept="image/*" required >
-													<label for="uploadImg" class="btn btn-primary btn-round btn-lg"><i class="fa fa-file-image"></i> Upload a Image</label>
-												</div>
-											</div>
-										</div>
-									</div>
 									<div class="card-action">
 										<div class="row">
 											<div class="col-md-12 d-flex justify-content-end">
-												<a href="data_barang.html" class="btn btn-danger" style="border-radius: 100px;">
-													Batal
-												</a>
+												<a href="data_barang.html#data-kategori" class="btn btn-danger" style="border-radius: 100px;">Batal</a>
 												<input class="btn btn-primary ml-4" type="submit" value="Tambah" style="border-radius: 100px;">
 											</div>										
 										</div>
-									</div>
-								</form>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+									</div> <!-- end card action -->
+								</form> <!-- end form -->
+							</div> <!-- end card -->
+						</div> <!-- end col 12 -->
+					</div> <!-- end page body -->
+				</div> <!-- end page inner -->
+			</div> <!-- end container -->
 
 			<footer class="footer text-center">	
 				<p>Copyright &copy; 2021 | <span class="fw-bold">Sumber Jaya Furniture</span>. Jaya Jaya Jaya!</p>	
 			</footer> <!-- end footer -->
-		</div>
+		</div> <!-- end main panel -->
+	
+
 	<!--   Core JS Files   -->
 	<script src="assets/js/core/jquery.3.2.1.min.js"></script>
 	<script src="assets/js/core/popper.min.js"></script>
