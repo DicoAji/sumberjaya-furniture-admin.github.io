@@ -18,13 +18,18 @@ Folder Structure:
  ┃ ┗ 📂...
  ┣ 📂demo1
  ┃ ┗ 📂...
+ ┣ 📜404-page.html
  ┣ 📜data_barang.html
  ┣ 📜data_transaksi.html
- ┣ 📜data-barang.html
+ ┣ 📜detail-barang.html
  ┣ 📜form-add-barang.html
+ ┣ 📜form-delete-barang.html
+ ┣ 📜form-delete-kategori.html
  ┣ 📜form-edit-barang.html
  ┣ 📜form-edit-kategori.html
+ ┣ 📜form-edit-transaksi.html
  ┣ 📜index.html
+ ┣ 📜laporan-bulanan.html
  ┗ 📜README.md
 ```
 
